@@ -1,6 +1,6 @@
 {
-  "version": "1.4.5",
-  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync-updates/releases/download/v1.4.5/VDJ-Sync-macOS-1.4.5.zip",
-  "sha256": "59100602f2069b092ed27e87d63dcd53290b9805a4ca527edd16d34c639d2f71",
-  "notes": "Poprawiony restart aktualizacji: automatyczne zamykanie ustawień i komunikat przy zatrzymanym zamknięciu aplikacji."
+  "version": "1.4.6",
+  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync-updates/releases/download/v1.4.6/VDJ-Sync-macOS-1.4.6.zip",
+  "sha256": "8cd2f0fa041b45203470bf1142063df3a5c6a828fb3f7044cf32dc95879449f9",
+  "notes": "Poprawione wykrywanie aktualizacji przez publiczne API GitHuba, bez tokenu i Pęku kluczy. Zawiera poprawkę restartu."
 }
