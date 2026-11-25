@@ -8,7 +8,9 @@ Aplikacja na macOS do przenoszenia biblioteki VirtualDJ między dwoma Macami prz
 
 ## Co robi program?
 
+- Pozwala wybrać dysk zewnętrzny oraz jeden główny folder muzyki.
 - Synchronizuje muzykę, bazę VirtualDJ, playlisty i ustawienia.
+- Odtwarza położenie folderu na koncie Maca B i dopasowuje odwołania VirtualDJ przy różnych nazwach kont.
 - Przenosi mapowania kontrolerów i klawiatury oraz definicje urządzeń i pady.
 - Pokazuje podgląd zmian przed synchronizacją, postęp operacji i wynik weryfikacji.
 - Po zakończeniu podaje liczbę nowych, zmienionych i przeniesionych do Kosza plików.
@@ -29,17 +31,25 @@ Paczka zawiera aplikację dla procesorów **Apple Silicon i Intel**. Do pobrania
 
 Do automatycznej instalacji aktualizacji potrzebny jest zapis w folderze aplikacji. Jeśli folder systemowy jest niezapisywalny, umieść aplikację w folderze `~/Applications` swojego użytkownika.
 
-## Obecna konfiguracja
+## Wybór folderu muzyki — od wersji 1.5.0
 
-Obecne wydanie korzysta z przygotowanego profilu oraz stałych ścieżek muzyki i danych VirtualDJ. Nie zawiera jeszcze formularza do zmiany tych ścieżek. Przed użyciem na innym koncie lub z innym układem biblioteki potrzebne jest dopasowanie konfiguracji aplikacji.
+Na MacBooku A wskaż dysk przyciskiem **Wybierz…** oraz główny folder muzyki przyciskiem **Wybierz folder…**.
 
-Dysk transportowy można wybrać w oknie programu.
+Wybierz osobny folder wewnątrz swojego katalogu użytkownika, np. **Muzyka/Biblioteka DJ**. Nie wybieraj całego katalogu użytkownika ani całego systemowego folderu Muzyka, Dokumenty lub Pobrane. W tym wydaniu foldery poza katalogiem użytkownika i dowiązania symboliczne nie są obsługiwane.
+
+Po eksporcie dysk przechowuje lokalizację biblioteki. MacBook B odczytuje ją automatycznie: folder **Muzyka/Biblioteka DJ** na A trafi do **Muzyka/Biblioteka DJ** na koncie użytkownika B. Konta mogą mieć różne nazwy. Program dopasowuje odwołania w bazie, playlistach i tekstowych ustawieniach VirtualDJ, a sam eksport pozostaje w postaci źródłowej.
+
+Na B wybierz dysk i sprawdź wyświetlony **Folder muzyki na tym Macu**. Jeśli eksport został wykonany po otwarciu programu, kliknij **Odczytaj dysk**.
+
+Kopiowane są pliki wewnątrz wybranego folderu. Utwory znajdujące się poza nim nie zostaną przeniesione. Zmiana głównego folderu na inną lokalizację nie usuwa automatycznie poprzedniego folderu muzyki na B.
+
+**Przed kolejnym eksportem zaktualizuj oba Maci do 1.5.0.** Starsze wersje nie obsługują nowego formatu eksportu. Dotychczasowego dysku nie trzeba ponownie przypisywać. Niezmieniona muzyka na nim pozostaje i nie jest przesyłana od początku.
 
 ## Pierwsza konfiguracja dysku
 
 1. Zamknij VirtualDJ przez **⌘Q**.
 2. Podłącz dysk zewnętrzny do MacBooka A.
-3. W VDJ Sync wybierz **MacBook A** i wskaż dysk.
+3. W VDJ Sync wybierz **MacBook A**, wskaż dysk i główny folder muzyki.
 4. Użyj **Przypisz nowy dysk…** tylko przy pierwszej konfiguracji nowego dysku.
 5. Wykonaj **Podgląd zmian**, sprawdź listę, a następnie wybierz **Synchronizuj**.
 
@@ -50,14 +60,14 @@ Dysk zostaje przypisany do komputera źródłowego. Ten sam dysk wykorzystuje si
 ### Na MacBooku A
 
 1. Zamknij VirtualDJ przez **⌘Q** i podłącz przypisany dysk.
-2. Wybierz **MacBook A**.
+2. Wybierz **MacBook A** i sprawdź wybrany folder muzyki.
 3. Kliknij **Podgląd zmian**, a po sprawdzeniu listy **Synchronizuj**.
 4. Poczekaj na komunikat o gotowym eksporcie i wysuń dysk.
 
 ### Na MacBooku B
 
 1. Zamknij VirtualDJ przez **⌘Q** i podłącz dysk z gotowym eksportem.
-2. Wybierz **MacBook B**.
+2. Wybierz **MacBook B**, wskaż dysk i sprawdź automatycznie odczytany folder docelowy.
 3. Kliknij **Podgląd zmian**, a następnie **Synchronizuj**.
 4. Po komunikacie o gotowym imporcie możesz uruchomić VirtualDJ.
 
