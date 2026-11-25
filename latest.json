@@ -1,6 +1,6 @@
 {
-  "version": "1.4.7",
-  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync/releases/download/v1.4.7/VDJ-Sync-macOS-1.4.7.zip",
-  "sha256": "a2e76249d418f188cb43f39cd9ca17aa4eb442c085f5212c673a4a07efb92453",
-  "notes": "Usunięto opis publicznego repozytorium z okna aktualizacji."
+  "version": "1.5.0",
+  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync/releases/download/v1.5.0/VDJ-Sync-macOS-1.5.0.zip",
+  "sha256": "0ffb00f381f5014d574cffaf0a0e8c07fb9f8a4594e15f9f2bc398b706089ed6",
+  "notes": "Wybór dysku i głównego folderu muzyki. Mac B odtwarza odpowiadającą lokalizację na swoim koncie i dopasowuje ścieżki VirtualDJ. Zaktualizuj oba Maci przed eksportem. Folder musi znajdować się wewnątrz katalogu użytkownika."
 }
