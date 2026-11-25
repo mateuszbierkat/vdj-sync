@@ -1,6 +1,6 @@
 {
   "version": "1.4.7",
-  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync-updates/releases/download/v1.4.7/VDJ-Sync-macOS-1.4.7.zip",
+  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync/releases/download/v1.4.7/VDJ-Sync-macOS-1.4.7.zip",
   "sha256": "a2e76249d418f188cb43f39cd9ca17aa4eb442c085f5212c673a4a07efb92453",
   "notes": "Usunięto opis publicznego repozytorium z okna aktualizacji."
 }
