@@ -1,6 +1,6 @@
 {
-  "version": "1.4.6",
-  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync-updates/releases/download/v1.4.6/VDJ-Sync-macOS-1.4.6.zip",
-  "sha256": "8cd2f0fa041b45203470bf1142063df3a5c6a828fb3f7044cf32dc95879449f9",
-  "notes": "Poprawione wykrywanie aktualizacji przez publiczne API GitHuba, bez tokenu i Pęku kluczy. Zawiera poprawkę restartu."
+  "version": "1.4.7",
+  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync-updates/releases/download/v1.4.7/VDJ-Sync-macOS-1.4.7.zip",
+  "sha256": "a2e76249d418f188cb43f39cd9ca17aa4eb442c085f5212c673a4a07efb92453",
+  "notes": "Usunięto opis publicznego repozytorium z okna aktualizacji."
 }
