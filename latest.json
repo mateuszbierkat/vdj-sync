@@ -1,6 +1,6 @@
 {
-  "version": "1.4.4",
-  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync-updates/releases/download/v1.4.4/VDJ-Sync-macOS-1.4.4.zip",
-  "sha256": "919cae2f326d33e405f17e4b6bba6c344c70a4c52a356374aed04c29bd9fe8fd",
-  "notes": "Publiczne aktualizacje bez tokenu i Pęku kluczy, poprawione przewijanie dziennika oraz strzałka powrotu na dół ze śledzeniem nowych wpisów."
+  "version": "1.4.5",
+  "downloadURL": "https://github.com/mateuszbierkat/vdj-sync-updates/releases/download/v1.4.5/VDJ-Sync-macOS-1.4.5.zip",
+  "sha256": "59100602f2069b092ed27e87d63dcd53290b9805a4ca527edd16d34c639d2f71",
+  "notes": "Poprawiony restart aktualizacji: automatyczne zamykanie ustawień i komunikat przy zatrzymanym zamknięciu aplikacji."
 }
